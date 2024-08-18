@@ -54,7 +54,7 @@ namespace TempLib {
 			}
 			int mid = (l + r) >> 1;
 			build(ls, l, mid);
-			build(rs, mid + 1, r);122537063
+			build(rs, mid + 1, r);
 		}
 		void modify(int p, int L, int R, int A) {
 			auto l = tr[p].l;
